@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack - Go Green</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌱 EcoTrack</h1>
+    <p>Save Energy, Save Future!</p>
+  </header>
+
+  <section class="calculator">
+    <h2>CARBON FOOTPRINT CALCULATOR</h2>
+    <form id="ecoForm">
+        <div class="row">
+            <label>Electricity Used (kWh/day):</label>
+            <input type="number" id="electricity" required>
+        </div>
+
+        <div class="row">
+            <label>Water Used (liters/day):</label>
+            <input type="number" id="water" required>
+        </div>
+
+        <div class="row">
+            <label>Vehicle Travel (km/day):</label>
+            <input type="number" id="travel" required>
+        </div>
+
+      <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+    <div id="tips"></div>
+  </section>
+
+  <section class="awareness">
+    <h2>🌍 Simple Ways to Save Energy</h2>
+    <ul>
+      <li>Switch off lights and fans when not in use.</li>
+      <li>Use energy-efficient LED bulbs.</li>
+      <li>Prefer walking or cycling for short distances.</li>
+      <li>Turn off chargers and devices after full charge.</li>
+      <li>Use solar energy if possible.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoTrack | Medha Manthan Hackathon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
